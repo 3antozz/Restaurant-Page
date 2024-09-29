@@ -1,0 +1,119 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  body {
+    font-family: "Lobster Two", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    background-image: url(./assorted-pasta-near-vegetables-spices.jpg);
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    background-attachment: fixed;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  nav {
+    display: flex;
+    gap: 2rem;
+    width: 50%;
+  }
+
+  nav button {
+    color: white;
+    flex: 1;
+    padding: 0.4rem 0;
+    font-size: 1.7rem;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.633);
+    border: 4px solid rgb(0, 0, 0);
+  }
+
+  button:nth-child(2){
+    flex: 1.5;
+  }
+
+  nav button:hover {
+    scale: 1.1;
+  }
+
+  footer {
+    font-weight: bold;
+    padding: 0.4rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+  }
+
+  #content {
+    color: white;
+    flex: 1;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .image-container {
+    width: 30%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px rgb(0 0 0 / 28%);
+    border: 2px solid white;
+  }
+
+  .image-container img {
+    scale: 1.3;
+    object-position: 30px -25px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: max(1rem, 5vw);
+    width: 60%;
+    margin: 2% 0;
+    color: rgb(255, 0, 0);
+    text-shadow: 7px 7px 0px #00000085;
+  }
+
+  .right-text {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+  }
+
+
