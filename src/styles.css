@@ -47,11 +47,16 @@
   header p {
     position: absolute;
     color: white;
-    font-size: max(1rem, 2vw);
+    font-size: max(1rem, 1.5vw);
     left: 0;
     top: 50%;
     transform: translateY(-50%);
     padding: 1rem;
+    cursor: pointer;
+  }
+
+  header p:hover {
+    font-size: 2.5vw;
   }
 
   nav {
@@ -78,6 +83,14 @@
 
   nav button:hover {
     scale: 1.1;
+    border: 3px solid white;
+  }
+
+  .selected-button {
+    background-color: darkred;
+    border: 3px solid white;
+    color: yellow;
+    scale: 1.1;
   }
 
   footer {
@@ -87,6 +100,7 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
+    margin-top: 2rem;
   }
 
   #content {
@@ -120,7 +134,7 @@
     scale: 1.02;
   }
 
-  h1 {
+  .main-header {
     text-align: center;
     font-size: max(1rem, 6vw);
     width: 60%;
@@ -150,5 +164,70 @@
   .right-text h2:hover {
     scale: 1.04;
   }
+
+  /* ________________________________________________________________________________________________________________________________ */
+    /* ________________________________________________________________________________________________________________________________ */
+      /* ________________________________________________________________________________________________________________________________ */
+        /* ________________________________________________________________________________________________________________________________ */
+          /* ________________________________________________________________________________________________________________________________ */
+            /* ________________________________________________________________________________________________________________________________ */
+
+
+
+  .row {
+    display: flex;
+  }
+
+  .category h1 {
+    text-align: center;
+    margin: 2rem;
+    font-size: max(1rem, 4vw);
+  }
+
+  .listings {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    row-gap: 2rem;
+    column-gap: 1rem;
+  }
+
+  .item img {
+    width: 25vw;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+
+  .item {
+    display: flex;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+
+  }
+
+  .item:hover {
+    scale: 1.1;
+    border: 2px solid white;
+  }
+
+  .left p {
+    text-align: center;
+  }
+
+  .right {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .right h2 {
+    text-align: center;
+    color: red;
+  }
+
+
+
+
+
 
 
