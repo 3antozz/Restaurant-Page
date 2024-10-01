@@ -36,7 +36,7 @@ const createMenu = function () {
             itemIngredient.textContent = "Ingredients:";
     
             const ingredients = document.createElement("p");
-            ingredients.textContent = "Zoubdet el koko, Ma3joune, El fosto9, Andrew Tate, kra3 kelb";
+            ingredients.textContent = "Zoubdet el koko, Ma3joune, El fosto9, Andrew Tate, Kra3 Kelb";
     
             rightDiv.append(itemTitle, itemIngredient, ingredients);
             leftDiv.appendChild(img);

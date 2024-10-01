@@ -1,4 +1,4 @@
-import burgerImage from "./burger.jpg"
+import burgerImage from "./home.jpg"
 
 const createHome = function () {
     const contentDiv = document.querySelector("#content");
@@ -22,13 +22,13 @@ const createHome = function () {
     rightTxt.classList.add("right-text");
 
     const descOne = document.createElement("h2");
-    descOne.textContent = "Savor the Taste of Excellence";
+    descOne.textContent = "Dou9 Bennet el Khamej-w-Bnin";
 
     const descTwo = document.createElement("h2");
-    descTwo.textContent = "Fresh Ingredients, Bold Flavors";
+    descTwo.textContent = "Ingredients mn sog ta3 boufarik ga3 khorda";
 
     const descThree = document.createElement("h2");
-    descThree.textContent = "Beautifully Designed Place";
+    descThree.textContent = "Décor dakhel ta7ssb rak f Ouled Fayet";
 
     rightTxt.append(descOne, descTwo, descThree);
 
