@@ -25,7 +25,7 @@ const createHome = function () {
     descOne.textContent = "Dou9 Bennet el Khamej-w-Bnin";
 
     const descTwo = document.createElement("h2");
-    descTwo.textContent = "Ingredients mn sog ta3 boufarik ga3 khorda";
+    descTwo.textContent = "Ingredients mn sog ta3 boufarik";
 
     const descThree = document.createElement("h2");
     descThree.textContent = "Décor dakhel ta7ssb rak f Ouled Fayet";

@@ -148,22 +148,20 @@
   }
 
   .right-text {
-    font-family: "Montserrat", sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-self: center;
     gap: 1rem;
     padding: 1rem;
-    max-width: 35%;
-  }
-
-  .right-text h2 {
-    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 37%;
+    /* background-color: rgba(0, 0, 0, 0.6);
     border-radius: 20px;
     padding: 1rem;
-    border: 1px solid red;
+    border-left: 8px solid red;
+    border-right: 8px solid red; */
   }
+
 
   .right-text h2:hover {
     scale: 1.04;
