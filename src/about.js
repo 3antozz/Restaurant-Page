@@ -27,6 +27,9 @@ const createAbout = function () {
     const secondChef = document.createElement("h2");
     secondChef.innerHTML = "<em>Yacine Djeddi</em>: Escalope Nachef expert";
 
+    const fourthChef = document.createElement("h2");
+    fourthChef.innerHTML = "<em>Roz-u&nbsp;u&nbsp;a&nbsp;a</em>: Milktchake specialidad";
+
     const thirdChef = document.createElement("h2");
     thirdChef.innerHTML = "<em>Rafik Ben3issa</em>: Master 2 in Ma9aron bel Créme Fraiche";
 
@@ -42,7 +45,7 @@ const createAbout = function () {
     const workHours = document.createElement("h2");
     workHours.innerHTML = "<em>Work Hours</em>: 10:00 to 10:01";
 
-    rightDiv.append(whoHeader, para, chefsHeader, firstChef, secondChef, thirdChef, contactInfo, location, phone, workHours);
+    rightDiv.append(whoHeader, para, chefsHeader, firstChef, secondChef, fourthChef, thirdChef, contactInfo, location, phone, workHours);
 
     aboutDiv.append(img, rightDiv);
 

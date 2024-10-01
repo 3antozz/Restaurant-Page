@@ -241,7 +241,7 @@
 
 
   .about img {
-    width: max(300px, 20%);
+    width: max(300px, 25%);
     border: 1px solid white;
     border-radius: 10px;
     height: auto;
@@ -252,7 +252,7 @@
     margin-top: 2rem;
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 3rem;
   }
 
   .about-right {
